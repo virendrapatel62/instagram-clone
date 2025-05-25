@@ -8,15 +8,21 @@ import SecureStorage, { ACCESSIBLE } from "rn-secure-storage"; // ✅ use this
 
 import ScreenGuardModule from "react-native-screenguard";
 
+// https://github.com/gbumps/react-native-screenguard/issues/92
+
+// ScreenGuardModule.registerWithoutEffect();
+
 export default function HomeScreen() {
   const { fetchPosts, hasMore, loading, page, posts } = usePostStore();
 
   useEffect(() => {
     (async () => {
-      await ScreenGuardModule.register({
-        backgroundColor: "#0F9D58",
+      const data = {
+        radius: 35,
         timeAfterResume: 2000,
-      });
+      };
+
+      ScreenGuardModule.registerWithBlurView(data);
     })();
   }, []);
 

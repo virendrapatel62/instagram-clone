@@ -1527,7 +1527,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-screenguard (1.0.8-beta6):
+  - react-native-screenguard (1.0.8-beta7):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2428,7 +2428,7 @@ SPEC CHECKSUMS:
   react-native-document-viewer: 56522f6ca034ae6a0c887eceb570be68ba6750de
   react-native-pager-view: f238ed7fb53458bd03366944a33686f067c83e9a
   react-native-safe-area-context: 562163222d999b79a51577eda2ea8ad2c32b4d06
-  react-native-screenguard: a18b6ce0925e4ce9ce31b64902f88fcb3d29a820
+  react-native-screenguard: 08d28ce85402146a263d9bacd7539e29ccfead64
   react-native-view-shot: 57c7b8158751f19f32cb885109574712955ea016
   React-NativeModulesApple: 2c4377e139522c3d73f5df582e4f051a838ff25e
   React-oscompat: ef5df1c734f19b8003e149317d041b8ce1f7d29c
